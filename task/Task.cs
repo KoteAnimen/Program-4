@@ -27,11 +27,12 @@ namespace task
             positiveCount = 0;
             negativeCount = 0;
             if (A > 0) positiveCount++;
-            else negativeCount++;
+            else if(A != 0) negativeCount++;
             if (B > 0) positiveCount++;
-            else negativeCount++;
+            else if (B != 0) negativeCount++;
             if (C > 0) positiveCount++;
-            else negativeCount++;
+            else if(C != 0) negativeCount++;
+            
         }
         
     }
